@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RPG - Defend your Class</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+      <header>
+         <h1>Create your character</h1>
+      </header>
+      <form id="form">
+         <fieldset>
+            <label for="charName">Character name</label>
+            <input type="text" id="charName" placeholder="Robson do Grau">
+            <label for="charClass">Choose your class</label>
+            <select id="charClass">
+               <option value="mage">Mage</option>
+               <option value="warrior">Warrior</option>
+               <option value="monk">Monk</option>
+               <option value="ninja">Ninja</option>
+            </select>
+         </fieldset>
+         <button id="attackButton">Attack!</button>
+         <div id="result"></div>
+      </form>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
